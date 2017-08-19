@@ -29,7 +29,11 @@
         <option value="lubuskie" selected>Lodzkie</option>
         <option value="lodzkie">slaskie</option>
         </select>
-        <input type="submit" value="send" required>
+        <form action="">
+            Country code:
+        <input type="text" name="kodpocztowy" pattern="[0-9]{5}" title="tylko polski kod pocztowy"> </form>
+
+        <input type="submit" value="send">
     </form>
 
 </body>
