@@ -9,27 +9,27 @@
 <body>
     <form action="https://formspree.io/serafin94@tlen.pl" method="post">
         <label for="imie">Imię:</label><br />
-        <input type="text" name="imie" id="imie"> <br />
-        
+        <input type="text" name="imie" id="imie" required> <br />
+
         <label for="nazwisko">Nazwisko:</label> <br />
-        <input type="text" name="nazwisko" id="nazwisko"><br />
+        <input type="text" name="nazwisko" id="nazwisko" required><br />
 
         <label for="email">email:</label><br />
-        <input type="text" name="email" id="email"> <br />
+        <input type="text" name="email" id="email" required> <br />
 
         <label for="numertelefonu">numer:</label><br />
-        <input type="text" name="numer" id="numertelefonu"> <br />
+        <input type="text" name="numer" id="numertelefonu" required> <br />
 
         <label for="wiadomosc">wiadomość:</label><br />
-         
-        <textarea name="Wiadomość" id="wiadomosc" rows="4" cols="50"></textarea><br />
+
+        <textarea name="Wiadomość" id="wiadomosc" rows="4" cols="50" required></textarea><br />
 
         <select name="wojewodztwo">
         <option value="mazowieckie">Mazowieckie</option>
         <option value="lubuskie" selected>Lodzkie</option>
         <option value="lodzkie">slaskie</option>
         </select>
-        <input type="submit" value="send">
+        <input type="submit" value="send" required>
     </form>
 
 </body>
