@@ -1,8 +1,11 @@
 @media (max-width:992px) {
     section {
+        text-align: center;
         height: 100vh;
+        background-color: white;
     }
     #zdjecie1 {
+        overflow: hidden;
         background-image: url(img/man-1.jpg);
         background-attachment: local;
         background-position: top;
@@ -13,13 +16,15 @@
     }
     
     #napis {
-        margin-top: 20%;
+        padding-top: 5%;
+        box-sizing: border-box;
+        margin-top: 0px;
+        background-color: white;
         width: auto;
-        height: 50vh;
+        height: 50%;
     }
     .words {
         color: black;
-        text-align: center;
     }
 }
 @media (min-width:993px) and (max-width:1170px)
