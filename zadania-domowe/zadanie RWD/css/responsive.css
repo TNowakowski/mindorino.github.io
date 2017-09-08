@@ -27,5 +27,92 @@
         color: black;
     }
 }
-@media (min-width:993px) and (max-width:1170px)
-@media (min-width:1171px)
+@media (min-width:993px) and (max-width:1170px) {
+    section {
+        height: 70vh;
+        position: relative;
+        overflow: hidden;
+        background-image: url(img/man-2.jpg);
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: auto;
+    }
+    section>div {
+        display: inline-block;
+        
+    }
+    #zdjecie1 {
+        width: 50%;
+        height: inherit;
+        
+    }
+    .words {
+        color: white;
+        text-align: left;
+    }
+    #napis {
+        top: 20%;
+        position: absolute;
+        width: 50%; }
+    #napis>div {
+        padding-left: 10%;
+        clear: both;
+    }
+        
+}
+@media (min-width:1171px) {
+    section {
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+        background-image: url(img/man-1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: auto;
+    }
+    .words {
+        line-height: 50px;
+        color: white;
+        text-align: left;
+        font-size: 30px;
+    }
+    #napis {
+        top: 50%;
+        position: absolute;
+        width: 50%; }
+    #napis>div {
+        padding-left: 10%;
+        clear: both;
+    }
+    
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
