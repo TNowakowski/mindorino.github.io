@@ -9,10 +9,10 @@
         background-image: url(img/man-1.jpg);
         background-attachment: local;
         background-position: top;
-        background-size: contain;
+        background-size:cover;
         background-repeat: no-repeat;
         height: 50%;
-        width: auto;
+        width: 100%;
     }
     
     #napis {
@@ -34,9 +34,9 @@
         overflow: hidden;
         background-image: url(img/man-2.jpg);
         background-position: top;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        width: auto;
+        width: 100%;
     }
     section>div {
         display: inline-block;
