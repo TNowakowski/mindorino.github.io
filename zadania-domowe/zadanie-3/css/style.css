@@ -1,0 +1,91 @@
+
+html {
+  padding: 0;
+  margin: 0;
+  background-color: red;
+
+  
+/*
+&::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    opacity: 0.2;
+  }
+*/
+}
+
+    body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  color: white;
+  overflow: hidden;
+  
+  /*&::after {*/
+  /*  position: fixed;*/
+  /*  bottom: 0;*/
+  /*  width: 100%;*/
+  /*  padding: 10px;*/
+  /*  color: white;*/
+  /*  font-size: 12px;*/
+  /*  text-align: center;*/
+  /*}*/
+}
+
+
+.sekundnik {
+  color: #FFFFFF;
+  font-size: 120px;
+  font-weight: 700;
+  
+  /*&::before {*/
+  /*  display: block;*/
+    
+  /*  animation-name: odliczanie;*/
+  /*  animation-duration: 5s;*/
+  /*  animation-iteration-count: infinite;*/
+  /*  content: '10';*/
+  /*}*/
+}
+
+@keyframes odliczanie {
+  0% {
+    content: '10';
+  }
+  10% {
+    content: '9';
+  }
+  20% {
+    content: '8';
+  }
+  30% {
+    content: '7';
+  }
+  40% {
+    content: '6';
+  }
+  50% {
+    content: '5';
+  }
+  60% {
+    content: '4';
+  }
+  70% {
+    content: '3';
+  }
+  80% {
+    content: '2';
+  }
+  90% {
+    content: '1';
+  }
+  100% {
+    content: 'I love css'
+  }
+}
