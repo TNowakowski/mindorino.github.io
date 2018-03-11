@@ -1,0 +1,48 @@
+html{
+    margin:15% auto;
+    text-align: center;
+    font-size: 30px;
+    color: rebeccapurple;
+    background-color: rgba(0, 255, 0, 0.712)
+}
+.error {
+    background-color: red;
+    color: red;
+}
+.background {
+    background-color: rgba(39, 149, 223, 0.192)
+}
+input.content {
+    background-color:rgba(243, 34, 34, 0.521);
+    width: 30vw;
+    box-sizing: border-box;
+    display: inline-block;
+}
+li.borderless {
+    border: none;
+    background-color: inherit;
+}
+#kontener {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px #000 solid;
+}
+#kontener .box {
+    width: 100px;
+    height: 100px;
+    margin: 30px 0 0 20px;
+    background-color: #FF5400;
+}
+#kontener .box #hidden {
+    display: none;
+}
+.link {
+    text-decoration: none;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}

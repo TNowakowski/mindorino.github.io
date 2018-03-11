@@ -1,0 +1,7 @@
+.thead-inverse th {
+    color: #fff;
+    background-color: #373a3c;
+}
+th, td {
+    text-align: center;
+}

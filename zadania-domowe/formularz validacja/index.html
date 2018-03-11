@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/Validation.js"></script>
+    <script src="js/skrypty.js"></script>
+</head>
+
+<body class="background">
+    <h1 class="container background">Formularz</h1>
+    <p class="container h3 background">Oto Formularz</p>
+    <a href="#" class="link red">Oto najwspanialszy na świecie formularz. </a>
+    <div class="row">
+        <section class="col-md-6" id="information">
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo saepe illum maxime voluptatibus nesciunt natus autem,
+                excepturi ratione doloribus aperiam veniam magnam tenetur blanditiis quaerat veritatis mollitia accusamus,
+                voluptatum tempore?</p>
+            <p class="text-right bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nam facere quia neque corrupti iure id? Architecto
+                error aliquam a totam. Amet sapiente quos doloremque possimus reiciendis, placeat delectus nihil?</p>
+            <a href="#hidden" id="link" class="h3" >Donate 100000$ to my account</a>
+            <p class="text-center h3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, maiores!</p>
+            <div id="kontener">
+                <div class="box">
+                    <p id="hidden" class="h2">Gratulacje!!!!</p>
+                </div>
+            </div>
+            <button id="btn" class="btn-primary" >Click Me!</button>
+
+            <button id="btn1" class="btn-success">Kliknij Mnie</button>
+
+            <button id="btn2" class="btn-danger">Liberate Me!</button>
+
+
+        </section>
+        <form action="submit" class="col-md-6 background" id="myForm">
+            <ul class="list-group" id="list">
+                <li class="list-group-item borderless">
+                    <label for="firstname">Twoje imie:</label>
+                    <input class="form-control content" placeholder="Imię:" type="text" name="firstname" data-error="Podaj Imie!">
+
+                </li>
+                <li class="list-group-item borderless">
+                    <label for="lastname">Twoje Nazwisko:</label>
+                    <input class="form-control content" placeholder="Nazwisko:" type="text" name="lastname" data-error="Podaj Nazwisko!">
+                </li>
+                <li class="list-group-item borderless">
+                    <label for="birthdate">Data urodzenia:</label>
+                    <input class="form-control content" placeholder="Data urodzenia:" type="date" name="birthdate" data-error="Podaj Datę urodzenia!">
+                </li>
+                <li class="list-group-item borderless" id="eg1">
+                    <label for="mail">Twój email:</label>
+                    <input class="form-control content" placeholder="E-mail:" type="email" name="mail" data-error="Podaj Mail!">
+
+                </li>
+                <li class="list-group-item borderless ">
+                    <label for="cars"> Auto którym się poruszasz.</label>
+                    <select name="cars" class="selectpicker" data-style="btn-primary" data-error="Kup Auto!">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                        <option value="" disabled selected>Brak</option>
+                    </select>
+
+                </li>
+                <li class="list-group-item borderless" id="eg2">
+                    <label for="adress">Twój adres:</label>
+                    <input class="form-control content" placeholder="Adres:" type="text" name="adress" data-error="Podaj Adres!">
+
+                </li>
+                <li class="list-group-item background borderless">
+                    <p>Czy wyrażasz zgodę na przetważanie danych osobowych</p>
+                    <select name="agreement" class="selectpicker">
+                        
+                        <option value="tak">Naturalnie </option>
+                        <option value="nie">W żadnym razie </option>
+                        <option value="moze">Kwestia dyskusyjna </option>
+                    </select>
+                </li>
+                <li class="list-group-item borderless">
+                    <textarea name="message" rows="10" cols="50" class="background borderless" data-error = "Napisz coś do nas!!!" ></textarea>
+                </li>
+                <li class="list-group-item borderless">
+                    <label for="rememberMe">Zapamiętaj mnie ?</label>
+                    <input type="checkbox" name="remember" class="form-check" value="1">
+                </li>
+
+                <input type="submit" class="btn btn-primary" value="wyślij">
+            </ul>
+        </form>
+
+    </div>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+    
+</body>
+
+</html>

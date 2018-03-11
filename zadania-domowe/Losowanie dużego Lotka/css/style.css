@@ -1,0 +1,21 @@
+* {
+    background-color: rgba(120, 250, 250, 0.541);
+}
+h1 {
+    color: red;
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#showNumbers {
+    width: 200px;
+    height: 30px;
+    background-color: azure;
+    border: 3px solid black;
+}

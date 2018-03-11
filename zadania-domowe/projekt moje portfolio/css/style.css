@@ -280,7 +280,25 @@ input:not(.last)  {
     color: black;
    
 }
+.backToTop {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(0, 198, 255, .9);
+    opacity:1;
+    visibility: 0.2s;
+    opacity: 0.2s;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
 
+
+}
+.backToTop.hidden {
+    opacity: 0;
+    visibility: 0;
+}
 
 
 

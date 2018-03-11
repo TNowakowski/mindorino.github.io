@@ -8,3 +8,24 @@ body {
     color: rgb(242, 255, 122);
 
 }
+a {
+    font-size: 2em;
+    color: black;
+}
+a:hover {
+    font-size: 2em;
+    color: white;
+}
+
+.main-heading {
+    margin-left: 5vw;
+}
+.transparent-background {
+    background-color:rgba(132, 255, 187, 0.137);
+    border: 2px solid black;
+} 
+.footer-background {
+    background-color:rgba(27, 202, 255, 0.589);
+    border: 1px solid rgb(71, 250, 65);
+    border-radius: 15px;
+}
