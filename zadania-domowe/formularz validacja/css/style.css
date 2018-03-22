@@ -12,7 +12,7 @@ html{
     background-color: rgba(136, 207, 255, 0.514)
 }
 input.content {
-    background-color:rgba(243, 34, 34, 0.521);
+    background-color:  #d9edf7;
     width: 30vw;
     box-sizing: border-box;
     display: inline-block;
