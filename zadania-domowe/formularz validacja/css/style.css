@@ -3,14 +3,14 @@ html{
     text-align: center;
     font-size: 30px;
     color: rebeccapurple;
-    background-color: rgba(0, 255, 0, 0.712)
+    background-color: rgba(67, 0, 252, 0.712)
 }
 .error {
     background-color: red;
     color: red;
 }
 .background {
-    background-color: rgba(39, 149, 223, 0.192)
+    background-color: rgba(0, 153, 255, 0.192)
 }
 input.content {
     background-color:rgba(243, 34, 34, 0.521);
