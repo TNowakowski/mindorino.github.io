@@ -1,8 +1,5 @@
-(function () {
+function pageScroll(y) {
+    window.scrollBy(0,y);
+    scrolldelay = setTimeout(pageScroll,100);
     
-     function scrollWin() {
-        window.scrollTo(0, 500);
-    }
-
-
-})();
+}

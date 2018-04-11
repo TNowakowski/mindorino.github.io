@@ -78,7 +78,8 @@ ul li {
 li>a {
     color: #1ac056;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 25px;
+    font-family: "Roboto";
     margin-right: 100px;
 }
 
@@ -86,7 +87,7 @@ li>a:hover {
     color: rgb(0, 255, 255);
     transition-duration: 1s;
     border-radius: 20%;
-    transform: scale(2);
+    transform: scale(1);
 }
 article#omnietekst {
     padding-top: 10vh;
