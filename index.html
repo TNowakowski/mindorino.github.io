@@ -1,63 +1,236 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="full-height">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Starting Page</title>
-    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Navigation Page</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <h1 class="page-header main-heading">Hello :)</h1>
-        </div>
 
-    </div>
+    <nav class="animated bounceInDown navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+        <div class="container-fluid">
+            <div id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active nav-item">
+                        <a class="navbar-brand nav-link" href="#content1">
+                            <span>
+                                <i class="fas fa-home"></i>
+                            </span>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand nav-link" href="#content2">O Mnie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand nav-link" href="#content3">Moje Umiejętności</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand nav-link" href="#content4">Moje Projekty</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-1 text-center container-fluid section-header" id="content1">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="animated fadeIn effect-shine">Tomasz Jan Nowakowski</h1>
+                <h2 class="animated fadeIn effect-shine">Front-end Developer</h2>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!--parallax 2-->
+    <section class="bg-2 section-header" id="content2">
+        <div class="col-lg-12 text-center">
+            <h3 class="font-weight-bold">O Mnie</h3>
+            <p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-elegant btn-rounded btn-lg wow fadeIn" data-toggle="modal" data-target="#aboutMeModal">
+                    Klika słów o mnie
+                </button>
+                <div class="modal fade" id="aboutMeModal" tabindex="-1" role="dialog" aria-labelledby="aboutMeModal" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content bg-dark">
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold text-primary" id="aboutMeModal">Cześć,</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true" class="text-light">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body text-justify text-light text-align-left">
+                                Od wielu lat zajmuje się programowaniem stron internetowych. Od zawsze była to moja pasja i sposób na spędzanie wolnego czasu.
+                                Pierwsze doświadczenia w programowaniu stron internetowych zdobyłem pracując w Motocyklowym
+                                Centrum serwisowym Honda. Gdzie byłem odpowiedzialny za wygląd sklepów internetowych oraz
+                                wszelkie kwestie związane z E-Commerce oraz bazą danych.
+                                <br>W celu nabycia dobrych praktyk w tworzeniu kodu, oraz poznaniu bardziej skomplikowanych technologii
+                                zapisałem się na 3 miesięczny kurs programowania składający się przede wszystkim z warsztatów
+                                praktycznych.
+                                <br>Następnie podczas pracy w Samsung Electronics doskonaliłem swoje umiejętności pracy z frameworkiem
+                                Angular, z uwzględnieniem wzorców projektowych i ogólnych dobrych praktyk Clean Code. Zaznajomiłem
+                                się również z systemem pracy w SCRUM-ie oraz środowisku Jira. Bardzo lubię pracę zespołową.
+                                Z ogromną chęcią uczę się nowych rzeczy, ale i chętnie dzielę się już posiadaną wiedzą.
+                            </div>
+                            <div class="modal-footer">
+                                <p class="text-primary">Może moglibyśmy pracować razem ?
+                                    <i class="far fa-smile"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </p>
+        </div>
+    </section>
+    <!--/parallax 2-->
+    <div class="divider"></div>
+    <!--parallax 3 -->
+    <section class="bg-3 text-center" id="content3">
+            <h3 class="font-weight-bold">Moje Umiejętności</h3>
+        <p class="lead">To co już umiem ale i nadal doskonale:</p>
+        <p>
+        </p>
+    </section>
+    <!--/parallax 3-->
+
+    <div class="divider"></div>
     <div class="container">
         <div class="row">
-            <div class="col-xs-6">
-                <div class="well transparent-background">
-                   
-                        <a href="zadania-domowe\projekt moje portfolio\index.html">Projekt "Moje Portfolio"</a>
-                    
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Heading 3</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+                            Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.</p>
+                        <ul>
+                            <li>
+                                <a href="#">List Item</a>
+                            </li>
+                            <li>
+                                <a href="#">List Item</a>
+                            </li>
+                            <li>
+                                <a href="#">List Item</a>
+                            </li>
+                            <li>
+                                <a href="#">List Item</a>
+                            </li>
+                            <li>
+                                <a href="#">List Item</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Heading 3</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+                            Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.</p>
+                        <ul>
+                            <li>
+                                <a href="#">List Item</a>
+                            </li>
+                            <li>
+                                <a href="#">List Item</a>
+                            </li>
+                            <li>
+                                <a href="#">List Item</a>
+                            </li>
+                            <li>
+                                <a href="#">List Item</a>
+                            </li>
+                            <li>
+                                <a href="#">List Item</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Form</h3>
+                    </div>
+                    <div class="panel-body">
 
+                        <!--begin HTML5 Form, you will need to provide your own form processing script-->
+                        <form class="form-horizontal" role="form" method="post" action=" ">
+                            <div class="form-group">
+                                <label for="name" class="col-sm-3 control-label">Name:</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="First & Last" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="col-sm-3 control-label">Email: </label>
+                                <div class="col-sm-9">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="you@domain.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="col-sm-3 control-label">Message:</label>
+                                <div class="col-sm-9">
+                                    <textarea class="form-control" row="4" name="message" placeholder="Comments" required></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-3 col-sm-6 col-sm-offset-3">
+                                    <button type="submit" id="submit" name="submit" class="btn-lg btn-primary btn-block">SUBMIT</button>
+                                </div>
+                            </div>
+                            <!--end Form-->
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!--/container-->
 
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-8">
-                <p class="main-heading h2">Projekty:</p>
-                <ul class="list-group">
-                    <li class="list-group-item transparent-background"><a href="zadania-domowe\formularz validacja\index.html">Formularz</a></li>
-                    <li class="list-group-item transparent-background"><a href="zadania-domowe\formularz html5\index.html">Formularz1</a></li>
-                    <li class="list-group-item transparent-background"><a href="zadania-domowe\bootstrap\index.html">Bootstrap</a></li>
-                    <li class="list-group-item transparent-background"><a href="zadania-domowe\Tooltip\index.html">Tooltip</a></li>
-                    <li class="list-group-item transparent-background"><a href="zadania-domowe\zadanie AJAX\index.html">AJAX</a></li>
-                    <li class="list-group-item transparent-background"><a href="zadania-domowe\zadanie RWD\index.html">RWD</a></li>
-                    <li class="list-group-item transparent-background"><a href="zadania-domowe\sortowanie danych po tabeli\index.html">Sortowanie Tabeli</a></li>
-                    <li class="list-group-item transparent-background"><a href="zadania-domowe\Losowanie dużego Lotka\index.html">Losowanie Dużego Lotka</a></li>
-                    <li class="list-group-item transparent-background"><a href="zadania-domowe\galeria responsywna\index.html">Galeria Responsywna</a></li>
-                  </ul>
-            </div>
-        </div>
-    </div>
-    <footer class="container-fluid">
-        <div class="row">
-            <p class="col-xs-9 main-heading footer-background">
-                <a href="https://repl.it/@mindorino">Serdeczenie zapraszam na mój profil na Repl.it</a>
+    <div class="divider"></div>
+
+    <!--parallax 4 -->
+    <section class="bg-4 text-center" id="content4">
+        <h1>Bootstrap Parallax</h1>
+        <p class="lead">Lorem ipsum dolor...</p>
+        <p>
+            <a class="btn btn-info btn-lg" href="/TUTORIALS/?id=bootstrap_parallax_template">BACK TO TUTORIAL</a>
+        </p>
+    </section>
+    <!--/parallax 4-->
+
+    <footer>
+        <div class="container">
+            <p class="text-muted">This Bootstrap Example courtesy
+                <a href="https://alt-web.com">Alt-Web.com</a>
+                <br> Placeholder images from
+                <a href="https://placeimg.com/">placeimg.com</a>
             </p>
         </div>
     </footer>
 
-
-
-    <script src="js\jquery-3.3.1.min.js"></script>
-    <script src="bootstrap-3.3.7-dist/js\bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax-min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
