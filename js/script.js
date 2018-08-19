@@ -1,10 +1,7 @@
 document.getElementById("hideAll").style.display = "block";
 window.onload = function () {
   document.getElementById("hideAll").style.display = "none";
-  new WOW().init();
-}
 
-document.addEventListener("DOMContentLoaded", function (event) {
   $("nav li").on("click", function () {
     $("nav li").removeClass("active");
     $(this).addClass("active");
@@ -18,4 +15,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
       window.location.hash = hash;
     });
   });
-});
+
+  new WOW().init();
+}
+
+
