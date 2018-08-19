@@ -3,6 +3,14 @@ body {
 }
 
 h1 {
+    color: rgb(49, 155, 255);
+    font-weight: 900;
+    font-size: 70px;
+    font-size: 6vw;
+    text-shadow: 1px 2px 3px rgb(214, 121, 0), -2px 3px 1px rgb(255, 255, 255);
+}
+
+h1.my-projects {
     color: rgba(250, 50, 0, 0.8);
     font-weight: 900;
     font-size: 70px;
@@ -13,7 +21,7 @@ h1 {
 h2 {
     font-weight: bold;
     font-size: 3vw;
-    color: rgb(212, 113, 0);
+    color: rgb(214, 123, 12);
     text-shadow: 1px 2px 3px rgb(0, 0, 0), -2px 3px 1px #000;
 }
 
@@ -77,6 +85,7 @@ h2 {
 }
 
 .bg-3 {
+    height: 270vh;
     background-image: url(../img/background3.jpg);
 }
 
