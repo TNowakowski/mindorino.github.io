@@ -1,7 +1,5 @@
-document.getElementById("hideAll").style.display = "block";
 window.onload = function () {
   document.getElementById("hideAll").style.display = "none";
-
   $("nav li").on("click", function () {
     $("nav li").removeClass("active");
     $(this).addClass("active");
@@ -17,6 +15,8 @@ window.onload = function () {
   });
 
   new WOW().init();
+
+  document.getElementById("navigation").classList.remove("d-none");
 }
 
 
