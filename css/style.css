@@ -158,7 +158,8 @@ h2 {
 }
 
 .bg-3 {
-    height: 200vh;
+    height: auto;
+    overflow: hidden;
     background-image: url(../img/background3.jpg);
 }
 
