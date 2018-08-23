@@ -147,7 +147,7 @@ h2 {
     background-attachment: fixed;
 }
 
-/**These placholder images should be replaced with your own images**/
+/**images**/
 
 .bg-1 {
     background-image: url(../img/background1.jpg);
@@ -200,6 +200,10 @@ footer {
     background-color: rgba(0, 0, 0, 0.9);
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+footer .row {
+    max-width: 99vw;
 }
 
 footer a {
