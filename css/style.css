@@ -111,7 +111,7 @@ h2 {
 
 /**welcome screen**/
 
-.section-header {
+.section-header-padding {
     padding-top: 40vh;
 }
 
@@ -121,7 +121,7 @@ h2 {
     background-color: rgba(0, 0, 0, 0.548);
 }
 
-.active {
+.nav-item.active>.nav-link {
     font-weight: 800;
 }
 
@@ -164,6 +164,8 @@ h2 {
 }
 
 .bg-4 {
+    height: auto;
+    overflow: hidden;
     background-image: url(../img/background4.jpg);
 }
 
