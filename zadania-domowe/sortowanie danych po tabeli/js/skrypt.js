@@ -29,7 +29,6 @@ var table = document.getElementById("myTable"),
             index =  thsArr.indexOf(target),
             df = document.createDocumentFragment(),
             order = (target.className === "" || target.className === "desc") ? "asc" : "desc";
-            console.log(order);
         clearClassName(ths);
         trsArr.sort(function(a,b) {
             var tdA = a.children[index].textContent,

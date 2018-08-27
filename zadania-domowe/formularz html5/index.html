@@ -3,37 +3,66 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Prosty Formularz</title>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script src="https://use.fontawesome.com/2f3fa65d83.js"></script>
 </head>
 
 <body>
-    <form action="https://formspree.io/serafin94@tlen.pl" method="post">
-        <label for="imie">Imię:</label><br />
-        <input type="text" name="imie" id="imie" required> <br />
-
-        <label for="nazwisko">Nazwisko:</label> <br />
-        <input type="text" name="nazwisko" id="nazwisko" required><br />
-
-        <label for="email">email:</label><br />
-        <input type="text" name="email" id="email" required> <br />
-        <label for="numertelefonu">numer:</label>
-        <br />
-        <input type="text" name="numer" id="numertelefonu" required> <br />
-
-        <label for="wiadomosc">wiadomość:</label><br />
-
-        <textarea name="Wiadomość" id="wiadomosc" rows="4" cols="50" required></textarea><br />
-
-        <select name="wojewodztwo">
-        <option value="mazowieckie">Mazowieckie</option>
-        <option value="lubuskie" selected>Lodzkie</option>
-        <option value="lodzkie">slaskie</option>
-        </select> Kod Pocztowy:
-        <input type="text" name="kodpocztowy" pattern="[0-9]{5}" title="tylko polski kod pocztowy">
-
-        <input type="submit" value="send">
-    </form>
-
+    <div class="container pt-5">
+        <form action="https://formspree.io/serafin94@tlen.pl" method="post">
+            <div class="form">
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="imie" class="col-md-6 col-form-label">Imię:</label>
+                        <input type="text" id="imie" class="form-control" placeholder="Twoje Imie" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="nazwisko" class="col-md-6 col-form-label">Nazwisko:</label>
+                        <input type="text" id="nazwisko" class="form-control" placeholder="Twoje Nazwisko" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="email" class="col-md-6 col-form-label">email:</label>
+                        <input type="text" id="email" class="form-control" placeholder="Twoj E-mail:" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="numertelefonu" class="col-md-6 col-form-label">numer:</label>
+                        <input type="text" id="numertelefonu" class="form-control" placeholder="Twoj numer:" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="wiadomosc" class="col-md-6 col-form-label">wiadomość:</label>
+                        <textarea id="wiadomosc" rows="4" cols="50" class="form-control" placeholder="Twoja Wiadomość:" required></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <select name="wojewodztwo" class="custom-select">
+                            <option value="mazowieckie">Mazowieckie</option>
+                            <option value="lubuskie" selected>Lodzkie</option>
+                            <option value="lodzkie">slaskie</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="postalCode">Kod Pocztowy:</label>
+                        <input type="text" id="postalCode" name="kodpocztowy" pattern="[0-9]{5}" title="tylko polski kod pocztowy">
+                    </div>
+                </div>
+                <input type="submit" class="btn btn-primary" value="send">
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
