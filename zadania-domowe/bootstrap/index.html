@@ -5,16 +5,13 @@
     <meta charset="utf-8">
     <!-- Zapewnienie reagowania zawartości strony na różne wielkości ekranu -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Template</title>
+    <title>Bootstrap Project</title>
     <!-- Skompresowany Bootstrap CSS dodany lokalnie -->
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoSlab">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DroidSerifItalic">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid+Serif:400italic">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -24,22 +21,33 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-                <a class="navbar-brand " href="#"><em>Bootstrap Project</em></a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand " href="#mainheader">
+                    <em>Bootstrap Project</em>
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">TEAM</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li>
+                        <a href="#service">SERVICES</a>
+                    </li>
+                    <li>
+                        <a href="#gallery">PORTFOLIO</a>
+                    </li>
+                    <li>
+                        <a href="#team">TEAM</a>
+                    </li>
+                    <li>
+                        <a href="#contact-us">CONTACT</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -49,7 +57,9 @@
     <!--kontenery -->
     <header id="mainheader">
         <div class="container-fluid">
-            <h2><em>Lorem ipsum dolor sit.</em></h2>
+            <h2>
+                <em>Lorem ipsum dolor sit.</em>
+            </h2>
             <h1>
                 <STRONG>Lorem ipsum dolor sit amet.</STRONG>
             </h1>
@@ -68,25 +78,28 @@
                 <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
 
                 <h5>Web Dewelopment</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In autem repellendus quae fugit hic voluptatem veniam, nesciunt velit laborum ducimus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In autem repellendus quae fugit hic voluptatem
+                    veniam, nesciunt velit laborum ducimus.</p>
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-4">
 
                 <i class="fa fa-cloud fa-2x" aria-hidden="true"></i>
 
                 <h5>Web Dewelopment</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In autem repellendus quae fugit hic voluptatem veniam, nesciunt velit laborum ducimus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In autem repellendus quae fugit hic voluptatem
+                    veniam, nesciunt velit laborum ducimus.</p>
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-4">
 
                 <i class="fa fa-comment fa-2x" aria-hidden="true"></i>
 
                 <h5>Web Dewelopment</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In autem repellendus quae fugit hic voluptatem veniam, nesciunt velit laborum ducimus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In autem repellendus quae fugit hic voluptatem
+                    veniam, nesciunt velit laborum ducimus.</p>
             </div>
         </div>
     </section>
-    <section id="galeria">
+    <section id="gallery">
         <div class="container">
             <div class="napis">
                 <h2 class="text-uppercase">Portfolio</h2>
@@ -122,8 +135,8 @@
                 </div>
                 <div class="text-center col-xs-12 col-sm-4 col-md-4">
                     <div class="galery-item">
-                        <div id="zd3" class="portfolio-image">
-                            <div class="portfolio-image-container">
+                        <div class="portfolio-image-container">
+                            <div id="zd3" class="portfolio-image">
                                 <div class="portfolio-image-mask">
                                     <i class="fa fa-plus"></i>
                                 </div>
@@ -176,7 +189,7 @@
 
         </div>
     </section>
-    <section class="container" id="naszzespol">
+    <section class="container" id="team">
         <div class="row ">
             <h2 class="text-uppercase">Meet our team</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, autem.</p>
@@ -215,7 +228,8 @@
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                 </div>
             </div>
-            <p class="col-sm-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quam quas consequuntur delectus! Veniam dolor tempora rerum possimus, cupiditate excepturi mollitia labore asperiores qui facere.</p>
+            <p class="col-sm-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quam quas consequuntur delectus! Veniam
+                dolor tempora rerum possimus, cupiditate excepturi mollitia labore asperiores qui facere.</p>
 
         </div>
     </section>
@@ -226,37 +240,37 @@
         </header>
         <form class="form-horizontal" role="form" method="post" action="index.php">
             <div class="row">
-            <div class="col-sm-6">
-            <div class="form-group">
-                <div class="col-sm-10 col-sm-offset-2">
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name*" value="">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name*" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Your E-mail" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+                            <input type="text" class="form-control" id="human" name="human" placeholder="Your Phone">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                <div class="col-sm-10 col-sm-offset-2">
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Your E-mail" value="">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <div class="col-sm-9 align-right">
+                            <textarea class="form-control" rows="4" name="Your Message" placeholder="Your Message*"></textarea>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                <div class="col-sm-10 col-sm-offset-2">
-                    <input type="text" class="form-control" id="human" name="human" placeholder="Your Phone">
-                </div>
-            </div>
-            </div>
-            <div class="col-sm-6">
-            <div class="form-group">
-                <div class="col-sm-9 align-right">
-                    <textarea class="form-control" rows="4" name="Your Message" placeholder="Your Message*"></textarea>
-                </div>
-            </div>
-            </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-12">
                     <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary btn-lg">
                 </div>
-                </div>
-            
+            </div>
+
             <div class="form-group">
                 <div class="col-sm-10 col-sm-offset-2">
                     <! Will be used to display an alert to the user>
@@ -270,12 +284,12 @@
                 <p>copyright your Website</p>
             </div>
             <div class="col-sm-4">
-                   <div class="ico">
+                <div class="ico">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                 </div>
-                
+
             </div>
             <div class="col-sm-4">
                 <span>Privacy policy</span>

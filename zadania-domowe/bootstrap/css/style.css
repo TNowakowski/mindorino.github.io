@@ -11,7 +11,7 @@ h1, h2 {
     font-family: "Montserrat";
     
 }
-section #naszzespol {
+section #team {
     margin-bottom: 110px;
     margin-top: 110px;
 }
@@ -88,12 +88,12 @@ li>a {
 }
 
 .container {
-    font-family: "DroidSerifItalic";
+    font-family: "Droid Serif Italic";
     margin-bottom: 10px;
     background-color: transparent;
     text-align: center;
 }
-#galeria {
+#gallery {
     background-color: gray;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -137,7 +137,7 @@ div.napis {
     opacity: 0.7;
 
 }
-#galeria .portfolio-image-container .portfolio-image:hover {
+#gallery .portfolio-image-container .portfolio-image:hover {
     transform: scale(1.2);
     transition: 0.5s;
 }
@@ -243,7 +243,7 @@ div.napis {
     padding: 30px;
 }
 .foot {
-    margin 0;
+    margin: 0;
     line-height: 10vh;
     font-size: 1.5em;
     
